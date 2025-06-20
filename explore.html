@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explore - HappyInvite</title>
+  <link rel="stylesheet" href="css/explore.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="assets/images/logo(1).jpg" class="logo" />
+    <div>
+        <h1 id="heading">Explore - HappyInvite</h1>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="explore.html" class="active">Explore</a>
+      <a href="contact.html">Contact</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="todolist.html">Saved Templates</a>
+    </nav>
+  </header>
+
+  <main class="template-section">
+
+  <div class="filter-bar">
+  <button class="filter-btn" data-category="all">All</button>
+  <button class="filter-btn" data-category="birthday">Birthday</button>
+  <button class="filter-btn" data-category="wedding">Wedding</button>
+  <button class="filter-btn" data-category="newyear">New Year</button>
+  <button class="filter-btn" data-category="other">Other</button>
+</div>
+
+ <div class="template-grid">
+  <div class="template-card birthday" data-link="template/birthday-editor.html">
+    <img src="assets/images/birthday1.png" alt="Birthday 1" />
+    <h3>Pink Floral Birthday</h3>
+    <button class="save-btn" data-title="Pink Floral Birthday" data-img="assets/images/birthday1.png" data-link="todoList.html">➕ Save to To-Do</button>
+    </div>
+  <div class="template-card birthday" data-link="template/birthday-editor.html">
+    <img src="assets/images/birthday3.png" alt="Birthday 3" />
+    <h3>Modern Birthday Bash</h3>
+    <button class="save-btn" data-title="Modern Birthday Bash" data-img="/assets/images/birthday3.png" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card birthday" data-link="template/birthday-editor.html">
+    <img src="assets/images/birthday2.png" alt="Birthday 2" />
+    <h3>Cartoon Style</h3>
+    <button class="save-btn" data-title="Cartoon Style" data-img="/assets/images/birthday2.png" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card birthday" data-link="template/birthday-editor.html">
+    <img src="assets/images/birthday4.png" alt="Birthday 4" />
+    <h3>Simple Style</h3>
+    <button class="save-btn" data-title="Simple Style" data-img="/assets/images/birthday4.png" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+
+  
+  <div class="template-card wedding" data-link="template/wedding-editor.html">
+    <img src="assets/images/wedding1.png" alt="Wedding 1" />
+    <h3>Elegant Wedding</h3>
+    <button class="save-btn" data-title="Elegant Wedding" data-img="/assets/images/wedding1.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card wedding" data-link="template/wedding-editor2.html">
+    <img src="assets/images/wedding2.png" alt="Wedding 2" />
+    <h3>Royal Style</h3>
+    <button class="save-btn" data-title="Royal Style" data-img="/assets/images/wedding2.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card wedding" data-link="template/wedding-editor3.html">
+    <img src="assets/images/wedding3.png" alt="Wedding 3" />
+    <h3>Traditional Wedding</h3>
+    <button class="save-btn" data-title="Traditional Wedding" data-img="/assets/images/wedding3.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card wedding" data-link="template/wedding-editor3.html">
+    <img src="assets/images/wedding4.png" alt="Wedding 4" />
+    <h3>Simple Wedding</h3>
+    <button class="save-btn" data-title="Simple Wedding" data-img="/assets/images/wedding4.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+
+
+  <div class="template-card newyear" data-link="template/newyear-editor.html">
+    <img src="assets/images/newyear1.png" alt="New Year 1" />
+    <h3>2026 Celebration</h3>
+    <button class="save-btn" data-title="2026 Celebration" data-img="/assets/images/new year1.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card newyear" data-link="template/newyear-editor2.html">
+    <img src="assets/images/newyear2.png" alt="New Year 2" />
+    <h3>Night Sparkle Theme</h3>
+    <button class="save-btn" data-title="Night Sparkle Theme" data-img="/assets/images/new year2.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card newyear" data-link="template/newyear-editor3.html">
+    <img src="assets/images/newyear3.png" alt="New Year 3" />
+    <h3>Fireworks Theme</h3>
+    <button class="save-btn" data-title="Fireworks Theme" data-img="/assets/images/new year3.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card newyear" data-link="template/newyear-editor3.html">
+    <img src="assets/images/newyear4.png" alt="New Year 4" />
+    <h3>Elegant Theme</h3>
+    <button class="save-btn" data-title="Elegant Theme" data-img="/assets/images/new year4.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+
+ 
+  <div class="template-card other" data-link="template/other-editor.html">
+    <img src="assets/images/other1.png" alt="Other 1" />
+    <h3>Graduation Wish</h3>
+    <button class="save-btn" data-title="Graduation Wish" data-img="/assets/images/other4.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card other" data-link="template/other-editor2.html">
+    <img src="assets/images/other2.png" alt="Other 2" />
+    <h3>Thank You Note</h3>
+    <button class="save-btn" data-title="Thank You Note" data-img="/assets/images/other4.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card other" data-link="template/other-editor3.html">
+    <img src="assets/images/other3.png" alt="Other 3" />
+    <h3>Baby shower</h3>
+    <button class="save-btn" data-title="Baby shower" data-img="/assets/images/other3.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+  <div class="template-card other" data-link="template/other-editor3.html">
+    <img src="assets/images/other4.png" alt="Other 4" />
+    <h3>Christmas greeting</h3>
+     <button class="save-btn" data-title="Christmas greeting" data-img="/assets/images/other4.jpg" data-link="todoList.html">➕ Save to To-Do</button>
+  </div>
+</div>
+
+<h2 style="margin-left:30px; color: #e91e63;">More Designs from Web:</h2>
+<div id="pexelsSection" class="template-grid"></div>
+
+<div id="overlay"></div>
+<div id="previewPopup" class="preview-popup">
+  <div class="popup-carousel">
+  <button class="popup-btn prev">❮</button>
+  <div class="popup-images"></div>
+  <button class="popup-btn next">❯</button>
+</div>
+
+  <h3 id="popupTitle">Template Name</h3>
+  <div class="btns">
+    <button id="previewClose">❌ Close</button>
+    <button id="previewOpen">✏️ Edit</button>
+  </div>
+</div>
+
+
+</main>
+
+  <script src="js/explore.js"></script>
+  <script src="js/pexels-fetch.js"></script>
+
+
+</body>
+</html>
