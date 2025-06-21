@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Birthday Card Editor - HappyInvite</title>
+  <link rel="stylesheet" href="../css/birthday-editor.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🎉 Customize Your Birthday Card 🎉</h1>
+  </header>
+
+  <main class="editor-container">
+    <div class="form-controls">
+      <label>Recipient Name:
+        <input type="text" id="nameInput" placeholder="e.g., Divyeshri" />
+      </label>
+      <label>Birthday Date:
+        <input type="text" id="dateInput" placeholder="e.g., June 14" />
+      </label>
+      <label>Custom Message:
+        <textarea id="messageInput" placeholder="Wishing you the happiest birthday ever! 🎂"></textarea>
+      </label>
+      <label>Select Text Color:
+        <input type="color" id="textColorPicker" value="#ff69b4" />
+      </label>
+      <label>Select Template:
+        <select id="templateSelect">
+          <option value="1">🎂 Pink Hearts</option>
+          <option value="2">🎈 Balloons</option>
+          <option value="3">🌸 Floral Theme</option>
+        </select>
+      </label>
+
+      <div class="btn-group">
+        <button id="downloadBtn">Download</button>
+
+        <button onclick="window.print()">🖨️ Print</button>
+      </div>
+    </div>
+
+    <div id="cardPreview" class="preview-card">
+      <img id="bgImage" src="../assets/images/birthday1.jpg" class="bg-img" />
+      <div class="text-layer">
+        <div id="previewName" class="draggable-text" contenteditable="true" style="top: 60px; left: 50px;">Dear Friend</div>
+        <div id="previewDate" class="draggable-text" contenteditable="true" style="top: 130px; left: 50px;">On Your Special Day</div>
+        <div id="previewMessage" class="draggable-text" contenteditable="true" style="top: 200px; left: 50px;">Wishing you the happiest birthday ever! 🎂</div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/birthday-editor.js">
+
+</script>
+</body>
+</html>
